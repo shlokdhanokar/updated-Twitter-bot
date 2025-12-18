@@ -1,0 +1,12 @@
+.env
+*.env
+posted_links.txt
+tweet_log.json
+__pycache__/
+*.py[cod]
+venv/
+env/
+.vscode/
+.DS_Store
+chrome_data/
+*.log

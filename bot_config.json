@@ -1,0 +1,25 @@
+{
+  "rss_feeds": [
+    {"url": "https://indianexpress.com/section/business/feed/", "category": "business"},
+    {"url": "https://indianexpress.com/section/india/feed/", "category": "india"},
+    {"url": "https://indianexpress.com/section/technology/feed/", "category": "technology"},
+    {"url": "https://indianexpress.com/section/trending/feed/", "category": "trending"}
+  ],
+  
+  "priority_keywords": [
+    "Modi", "Trump", "election", "stock market", "earthquake", "AI", 
+    "cricket", "India vs Pakistan", "Supreme Court", "breaking"
+  ],
+  
+  "category_weights": {
+    "trending": 5,
+    "politics": 5,
+    "india": 4,
+    "business": 4,
+    "technology": 3
+  },
+  
+  "tweets_per_run": 3,
+  "max_news_age_days": 2,
+  "tweet_delay_seconds": 15
+}
